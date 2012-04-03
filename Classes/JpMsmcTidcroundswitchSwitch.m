@@ -64,6 +64,12 @@
     }
 }
 
+- (void)dealloc
+{
+    RELEASE_TO_NIL(dcRoundSwitch);
+    [super dealloc];
+}
+
 
 #pragma mark -
 #pragma mark View lifecycles

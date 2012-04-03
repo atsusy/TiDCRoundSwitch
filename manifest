@@ -1,0 +1,18 @@
+#
+# this is your module manifest and used by Titanium
+# during compilation, packaging, distribution, etc.
+#
+version: 0.1
+apiversion: 2
+description: My module
+author: Your Name
+license: Specify your license
+copyright: Copyright (c) 2012 by Your Company
+
+
+# these should not be edited
+name: tidcroundswitch
+moduleid: jp.msmc.tidcroundswitch
+guid: 62a99de7-dd81-47bb-9ff9-8064818c66d2
+platform: iphone
+minsdk: 1.8.2
